@@ -1,0 +1,358 @@
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistemas Lineares</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Sistemas Lineares</h1>
+
+    <h2>O que são Sistemas Lineares?</h2>
+
+    <p>
+    Os sistemas lineares são conjuntos formados por duas ou mais equações lineares
+    que possuem incógnitas em comum. O objetivo é encontrar os valores dessas
+    incógnitas que tornam todas as equações verdadeiras ao mesmo tempo.
+    </p>
+
+    <p>
+    As equações lineares possuem incógnitas com expoente igual a 1.
+    </p>
+
+    <p>
+    Exemplo:
+    <br>x + y = 2
+    <br>x − y = 10
+    </p>
+
+    <p>
+    Nesse sistema, as incógnitas são x e y.
+    </p>
+
+    <ul style="margin-left:230px;">
+        <li>Os números que acompanham as incógnitas são chamados de coeficientes.</li>
+        <li>Os números após o sinal de igualdade são chamados de termos independentes.</li>
+    </ul>
+
+    <h2>Solução de um Sistema Linear</h2>
+
+    <p>
+    A solução é o conjunto de valores que satisfaz todas as equações simultaneamente.
+    </p>
+
+    <p>
+    Sistema:
+    <br>x + y = 2
+    <br>x − y = 10
+    </p>
+
+    <p>
+    Somando as equações:
+    <br>2x = 12
+    <br>x = 6
+    </p>
+
+    <p>
+    Substituindo em x + y = 2:
+    <br>6 + y = 2
+    <br>y = -4
+    </p>
+
+    <p>
+    Portanto, o conjunto solução é:
+    </p>
+
+    <p>
+    S = {(6, -4)}
+    </p>
+
+    <h2>Método da Substituição</h2>
+
+    <p>
+    Consiste em isolar uma das incógnitas em uma das equações e substituí-la na outra.
+    </p>
+
+    <p>
+    Exemplo:
+    <br>x + y = 7
+    <br>x - y = 1
+    </p>
+
+    <p>
+    Isolando x:
+    <br>x = y + 1
+    </p>
+
+    <p>
+    Substituindo:
+    <br>(y + 1) + y = 7
+    <br>2y + 1 = 7
+    <br>2y = 6
+    <br>y = 3
+    </p>
+
+    <p>
+    x = 3 + 1 = 4
+    </p>
+
+    <p>
+    S = {(4,3)}
+    </p>
+
+    <h2>Método da Adição</h2>
+
+    <p>
+    Nesse método, somamos ou subtraímos as equações para eliminar uma incógnita.
+    </p>
+
+    <p>
+    Exemplo:
+    <br>x + y = 2
+    <br>x − y = 10
+    </p>
+
+    <p>
+    Somando:
+    <br>2x = 12
+    <br>x = 6
+    </p>
+
+    <p>
+    Substituindo:
+    <br>6 + y = 2
+    <br>y = -4
+    </p>
+
+    <h2>Método do Escalonamento</h2>
+
+    <p>
+    O escalonamento transforma o sistema em uma forma mais simples por meio
+    de operações entre as linhas.
+    </p>
+
+    <p>
+    Exemplo:
+    </p>
+
+    <p>
+    x + y + z = 6
+    <br>2x + y − z = 3
+    <br>x − y + z = 2
+    </p>
+
+    <p>
+    Utilizando operações entre as equações, eliminam-se incógnitas até que
+    o sistema seja resolvido gradualmente.
+    </p>
+
+    <p>
+    Esse método é muito utilizado em sistemas com três ou mais incógnitas.
+    </p>
+
+    <h2>Classificação dos Sistemas Lineares</h2>
+
+    <h3>Sistema Possível e Determinado (SPD)</h3>
+
+    <p>
+    Possui apenas uma solução.
+    </p>
+
+    <p>
+    D ≠ 0
+    </p>
+
+    <p>
+    Exemplo:
+    </p>
+
+    <p>
+    x + y = 5
+    <br>x − y = 1
+    </p>
+
+    <h3>Sistema Possível e Indeterminado (SPI)</h3>
+
+    <p>
+    Possui infinitas soluções.
+    </p>
+
+    <p>
+    D = 0
+    <br>Dx = 0
+    <br>Dy = 0
+    </p>
+
+    <p>
+    Exemplo:
+    </p>
+
+    <p>
+    x + y = 2
+    <br>2x + 2y = 4
+    </p>
+
+    <h3>Sistema Impossível (SI)</h3>
+
+    <p>
+    Não possui solução.
+    </p>
+
+    <p>
+    D = 0
+    <br>Dx ≠ 0 ou Dy ≠ 0
+    </p>
+
+    <p>
+    Exemplo:
+    </p>
+
+    <p>
+    x + y = 2
+    <br>x + y = 5
+    </p>
+
+    <h2>Interpretação Gráfica</h2>
+
+    <p>
+    Cada equação do sistema representa uma reta no plano cartesiano.
+    </p>
+
+    <ul style="margin-left:230px;">
+        <li>SPD → as retas se cruzam em um único ponto.</li>
+        <li>SPI → as retas coincidem.</li>
+        <li>SI → as retas são paralelas.</li>
+    </ul>
+
+    <img src="img/sistemas_graficos.jpg"
+    style="margin-left:330px; width:600px;">
+
+    <h2>Regra de Cramer</h2>
+
+    <p>
+    A Regra de Cramer resolve sistemas utilizando determinantes.
+    Ela só pode ser aplicada quando o número de equações é igual ao número de incógnitas.
+    </p>
+
+    <h3>Passo 1: Determinante Principal</h3>
+
+    <p>
+    Sistema:
+    <br>x + y = 2
+    <br>x − y = 10
+    </p>
+
+    <p>
+    Matriz dos coeficientes:
+    </p>
+
+    <p>
+    |1 1|
+    <br>|1 -1|
+    </p>
+
+
+
+    <h3>Passo 2: Determinante Dx</h3>
+
+    <p>
+    Substituindo a primeira coluna pelos termos independentes:
+    </p>
+
+    <p>
+    |2 1|
+    <br>|10 -1|
+    </p>
+
+    <p>
+    Dx = (2 × -1) − (1 × 10)
+    <br>Dx = -12
+    </p>
+
+    <h3>Passo 3: Determinante Dy</h3>
+
+    <p>
+    Substituindo a segunda coluna:
+    </p>
+
+    <p>
+    |1 2|
+    <br>|1 10|
+    </p>
+
+    <p>
+    Dy = (1 × 10) − (2 × 1)
+    <br>Dy = 8
+    </p>
+
+    <h3>Passo 4: Encontrando as incógnitas</h3>
+
+
+
+    <p>
+    x = -12 ÷ -2 = 6
+    <br>y = 8 ÷ -2 = -4
+    </p>
+
+    <p>
+    Logo:
+    <br>S = {(6,-4)}
+    </p>
+
+    <h2>Aplicações dos Sistemas Lineares</h2>
+
+    <p>
+    Os sistemas lineares aparecem em diversas situações do cotidiano.
+    </p>
+
+    <ul style="margin-left:230px;">
+        <li>Engenharia;</li>
+        <li>Economia;</li>
+        <li>Administração;</li>
+        <li>Física;</li>
+        <li>Informática;</li>
+        <li>Estatística;</li>
+        <li>Planejamento financeiro;</li>
+        <li>Controle de produção;</li>
+        <li>Distribuição de recursos.</li>
+    </ul>
+
+    <h2>Exemplo do Cotidiano</h2>
+
+    <p>
+    Uma lanchonete vende hambúrgueres e refrigerantes.
+    Duas pessoas compraram:
+    </p>
+
+    <p>
+    2 hambúrgueres e 1 refrigerante = R$ 35
+    <br>1 hambúrguer e 2 refrigerantes = R$ 25
+    </p>
+
+    <p>
+    Utilizando um sistema linear, é possível descobrir o preço de cada produto.
+    </p>
+
+    <h2>Videoaula</h2>
+
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/watch?v=nvT15exeXOA"
+    title="Videoaula sobre sistemas lineares"
+    allowfullscreen>
+</iframe>
+
+
+    <h2>Conclusão</h2>
+
+    <p>
+    Os sistemas lineares são ferramentas fundamentais para resolver problemas
+    que envolvem várias incógnitas relacionadas entre si. Métodos como
+    substituição, adição, escalonamento e Regra de Cramer permitem encontrar
+    soluções de maneira organizada e eficiente, tornando esse conteúdo essencial
+    para a Matemática e para diversas áreas profissionais.
+    </p>
+</body>
+</html>

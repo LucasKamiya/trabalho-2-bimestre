@@ -1,0 +1,406 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Matrizes</h1>
+
+<h2>O que são Matrizes?</h2>
+
+<p>
+As matrizes são estruturas matemáticas organizadas em linhas e colunas,
+utilizadas para armazenar e organizar informações de forma prática.
+São muito utilizadas na Matemática, Física, Engenharia, Economia,
+Computação, Estatística e Inteligência Artificial.
+</p>
+
+<p>
+Uma matriz é representada por uma letra maiúscula e seus elementos
+são organizados entre colchetes ou parênteses.
+</p>
+
+<p>
+Exemplo:
+<br>
+A =
+<br>
+[ 2  4  6 ]
+<br>
+[ 1  3  5 ]
+</p>
+
+<h2>Ordem de uma Matriz</h2>
+
+<p>
+A ordem de uma matriz é determinada pela quantidade de linhas e colunas.
+</p>
+
+<p>
+Ordem = número de linhas × número de colunas
+</p>
+
+<p>
+Exemplo:
+</p>
+
+<p>
+A =
+<br>
+[ 1  2  3 ]
+<br>
+[ 4  5  6 ]
+</p>
+
+<p>
+A matriz possui 2 linhas e 3 colunas.
+Portanto, sua ordem é:
+</p>
+
+<p>
+2 × 3
+</p>
+
+<h2>Elementos de uma Matriz</h2>
+
+<p>
+Cada elemento é identificado pela sua posição.
+Utilizamos a notação:
+</p>
+
+<p>
+aᵢⱼ
+</p>
+
+<p>
+Onde:
+</p>
+
+<ul style="margin-left:230px;">
+    <li>i = linha</li>
+    <li>j = coluna</li>
+</ul>
+
+<p>
+Exemplo:
+</p>
+
+<p>
+A =
+<br>
+[ 4  7 ]
+<br>
+[ 3  8 ]
+</p>
+
+<p>
+O elemento a₁₂ = 7
+<br>
+O elemento a₂₁ = 3
+</p>
+
+<h2>Tipos de Matrizes</h2>
+
+<h3>Matriz Linha</h3>
+
+<p>
+Possui apenas uma linha.
+</p>
+
+<p>
+[ 2  4  6 ]
+</p>
+
+<p>
+Ordem: 1 × 3
+</p>
+
+<h3>Matriz Coluna</h3>
+
+<p>
+Possui apenas uma coluna.
+</p>
+
+<p>
+[ 2 ]
+<br>
+[ 4 ]
+<br>
+[ 6 ]
+</p>
+
+<p>
+Ordem: 3 × 1
+</p>
+
+<h3>Matriz Nula</h3>
+
+<p>
+Todos os seus elementos são iguais a zero.
+</p>
+
+<p>
+[ 0  0 ]
+<br>
+[ 0  0 ]
+</p>
+
+<h3>Matriz Quadrada</h3>
+
+<p>
+Possui o mesmo número de linhas e colunas.
+</p>
+
+<p>
+[ 4  3 ]
+<br>
+[ 1  2 ]
+</p>
+
+<p>
+Ordem: 2 × 2
+</p>
+
+<h3>Matriz Diagonal</h3>
+
+<p>
+Todos os elementos fora da diagonal principal são iguais a zero.
+</p>
+
+<p>
+[ 5  0  0 ]
+<br>
+[ 0  2  0 ]
+<br>
+[ 0  0  9 ]
+</p>
+
+<h3>Matriz Identidade</h3>
+
+<p>
+É uma matriz quadrada em que os elementos da diagonal principal são iguais a 1
+e todos os outros elementos são iguais a 0.
+</p>
+
+<p>
+I₂ =
+<br>
+[ 1  0 ]
+<br>
+[ 0  1 ]
+</p>
+
+<h2>Matriz Transposta</h2>
+
+<p>
+A matriz transposta é obtida trocando as linhas pelas colunas.
+</p>
+
+<p>
+A =
+<br>
+[ 1  5 ]
+<br>
+[ 3  9 ]
+</p>
+
+<p>
+Aᵀ =
+<br>
+[ 1  3 ]
+<br>
+[ 5  9 ]
+</p>
+
+<h2>Matriz Oposta</h2>
+
+<p>
+A matriz oposta é obtida trocando o sinal de todos os elementos.
+</p>
+
+<p>
+A =
+<br>
+[ 7  4 ]
+<br>
+[ 5  2 ]
+</p>
+
+<p>
+−A =
+<br>
+[ -7  -4 ]
+<br>
+[ -5  -2 ]
+</p>
+
+<h2>Operação de Adição</h2>
+
+<p>
+Só é possível somar matrizes que possuem a mesma ordem.
+</p>
+
+<p>
+A =
+<br>
+[ 1  2 ]
+<br>
+[ 3  4 ]
+</p>
+
+<p>
+B =
+<br>
+[ 5  6 ]
+<br>
+[ 7  8 ]
+</p>
+
+<p>
+A + B =
+<br>
+[ 6  8 ]
+<br>
+[ 10 12 ]
+</p>
+
+<h2>Multiplicação por Escalar</h2>
+
+<p>
+Consiste em multiplicar todos os elementos da matriz por um número.
+</p>
+
+<p>
+2 ×
+<br>
+[ 1  3 ]
+<br>
+[ 2  4 ]
+</p>
+
+<p>
+Resultado:
+</p>
+
+<p>
+[ 2  6 ]
+<br>
+[ 4  8 ]
+</p>
+
+<h2>Multiplicação de Matrizes</h2>
+
+<p>
+Para multiplicar duas matrizes, o número de colunas da primeira deve ser
+igual ao número de linhas da segunda.
+</p>
+
+<p>
+Exemplo:
+</p>
+
+<p>
+A =
+<br>
+[ 1  2 ]
+<br>
+[ 3  4 ]
+</p>
+
+<p>
+B =
+<br>
+[ 5  6 ]
+<br>
+[ 7  8 ]
+</p>
+
+<p>
+A × B =
+<br>
+[ 19  22 ]
+<br>
+[ 43  50 ]
+</p>
+
+<h2>Matriz Inversa</h2>
+
+<p>
+A matriz inversa existe apenas para algumas matrizes quadradas.
+Quando multiplicamos uma matriz por sua inversa, obtemos a matriz identidade.
+</p>
+
+<p>
+A × A⁻¹ = I
+</p>
+
+<p>
+Onde:
+</p>
+
+<ul style="margin-left:230px;">
+    <li>A = matriz original</li>
+    <li>A⁻¹ = matriz inversa</li>
+    <li>I = matriz identidade</li>
+</ul>
+
+<h2>Matrizes Iguais</h2>
+
+<p>
+Duas matrizes são iguais quando possuem a mesma ordem e os elementos
+correspondentes são iguais.
+</p>
+
+<p>
+A =
+<br>
+[ 3  1 ]
+<br>
+[ 2  5 ]
+</p>
+
+<p>
+B =
+<br>
+[ 3  1 ]
+<br>
+[ 2  5 ]
+</p>
+
+<p>
+Logo:
+A = B
+</p>
+
+<h2>Aplicações das Matrizes</h2>
+
+<ul style="margin-left:230px;">
+    <li>Organização de dados em tabelas</li>
+    <li>Computação gráfica</li>
+    <li>Desenvolvimento de jogos</li>
+    <li>Engenharia</li>
+    <li>Economia</li>
+    <li>Estatística</li>
+    <li>Inteligência Artificial</li>
+    <li>Processamento de imagens</li>
+</ul>
+
+<h2>Videoaula</h2>
+
+<iframe
+width="560"
+height="315"
+style="margin-left:330px;"
+src="https://www.youtube.com/watch?v=HNpSOOhtqkA"
+title="Matrizes"
+allowfullscreen>
+</iframe>
+
+<h2>Conclusão</h2>
+
+<p>
+As matrizes são ferramentas fundamentais para organizar informações
+e resolver problemas complexos. Seu estudo é indispensável para áreas
+científicas e tecnológicas, sendo amplamente utilizado no mundo moderno.
+</p>
+</body>
+</html>
